@@ -1,0 +1,59 @@
+header{
+    font-size: 2.7rem;
+    left: 0;
+    right: 0;
+    padding: 0.5em 1em;
+    height: 70px;
+    background-color: rgb(56, 105, 160);
+}
+body{
+    background-color: antiquewhite;
+    font-size: 16px; /* Set a base font size */
+}
+.name{
+    float: left;
+}
+nav{
+    float: right;
+    }
+nav a{
+    color: black;
+}
+nav a:hover {
+        background-color: #555; /* Background color when hovering */
+    
+}
+main{
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #2E1212;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    margin: 50px;
+}
+h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px;
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+    margin: 50px;
+}
+.about{
+    background-color: aquamarine;
+}
+
+.title h3{
+    text-align: left;
+    margin: 5;
+    padding: 0;
+}
+.project{
+    text-align: center;
+}
