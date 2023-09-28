@@ -87,3 +87,45 @@ h3{
     color: #2e1212;
     font-family: 'Open Sans', sans-serif;
 }
+
+.container{
+    display: grid;
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+input{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    resize: vertical
+    
+}
+
+label{
+    margin-left: 10px;
+    /* margin-bottom: 5px; */
+}
+
+textarea{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60px;
+    
+}
