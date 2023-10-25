@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap');
+
+@media(max-width: 1023px) {
+    .ja {
+        margin-bottom:40vh;
+        margin-top: 40vh
+    }
+}
+
 header{
     font-size: 2.7rem;
     left: 0;
@@ -24,11 +33,14 @@ nav a:hover {
     
 }
 main{
+    
+    text-align: center;
     min-height: 100vh;
-    padding: 64px 24px 96px;
+    padding: 60px 44px 100px;
     box-shadow: 0 0 12px -2px black;
-    color: #2E1212;
+    color: #2e1212;
     font-family: 'Open Sans', sans-serif;
+    /* background-color: rgb(39, 103, 155); */
 }
 h1{
     text-align: center;
@@ -45,15 +57,75 @@ h3{
     font-family: cursive;
     margin: 50px;
 }
-.about{
-    background-color: aquamarine;
-}
 
 .title h3{
-    text-align: left;
+    text-align: center;
     margin: 5;
     padding: 0;
 }
 .project{
     text-align: center;
+}
+
+.portfolio{
+    display: grid;
+    text-align: center;
+    min-height: 100vh;
+    padding: 60px 44px 100px;
+    box-shadow: 0 0 12px -2px black;
+    color: #2e1212;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.about{
+    display: grid;
+    text-align: center;
+    min-height: 100vh;
+    padding: 60px 44px 100px;
+    box-shadow: 0 0 12px -2px black;
+    color: #2e1212;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    display: grid;
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+input{
+    position: relative;
+    background-color: white;
+    width: 60%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10px;
+    resize: vertical
+    
+}
+
+label{
+    margin-left: 10px;
+    /* margin-bottom: 5px; */
+}
+
+textarea{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60px;
+    
 }
